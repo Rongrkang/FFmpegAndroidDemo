@@ -1,0 +1,14 @@
+prefix=/home/leikang/Android/ffmpeg/ffmpeg-4.0/ffmpeg/android/arm
+exec_prefix=${prefix}
+libdir=/home/leikang/Android/ffmpeg/ffmpeg-4.0/ffmpeg/android/arm/lib
+includedir=/home/leikang/Android/ffmpeg/ffmpeg-4.0/ffmpeg/android/arm/include
+
+Name: libpostproc
+Description: FFmpeg postprocessing library
+Version: 55.2.100
+Requires: 
+Requires.private: libavutil >= 56.18.102
+Conflicts:
+Libs: -L${libdir}  -lpostproc 
+Libs.private: -lm
+Cflags: -I${includedir}

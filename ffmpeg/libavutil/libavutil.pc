@@ -1,0 +1,14 @@
+prefix=/home/leikang/Android/ffmpeg/ffmpeg-4.0/ffmpeg/android/arm
+exec_prefix=${prefix}
+libdir=/home/leikang/Android/ffmpeg/ffmpeg-4.0/ffmpeg/android/arm/lib
+includedir=/home/leikang/Android/ffmpeg/ffmpeg-4.0/ffmpeg/android/arm/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.18.102
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm
+Cflags: -I${includedir}
