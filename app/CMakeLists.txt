@@ -120,7 +120,7 @@ set_target_properties( swscale
 
 
 # 引用源码
-include_directories( ../../../Android/ffmpeg/ffmpeg-4.0/ffmpeg/
+include_directories( ../ffmpeg/
                      ${CPP_DIR}/include/ )
 
 
