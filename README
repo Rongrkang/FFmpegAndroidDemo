@@ -1,0 +1,13 @@
+操作系统：Ubuntu 16.04 64bit
+
+编译FFmpeg x264 源码的NDK版本是 android-ndk-r12b
+
+FFmpeg版本：4.0 x264版本：x264-snapshot-20180611-2245
+
+Android-studio版本：3.1.2
+
+cmake版本：3.6
+
+LLDB版本 3.1
+
+as设置NDK的版本：17
